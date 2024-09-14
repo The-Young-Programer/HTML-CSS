@@ -34,99 +34,182 @@ Because this stuff is important.  Whether you're a business person formatting yo
 <summary>HTML</summary>
 
 **HTML Tutorial**
+
 [HTML Introduction](#html-introduction)
+
 [HTML Editors](#html-editors)
+
 [HTML Basic](#html-basic-examples)
+
 [HTML Elements](#html-elements)
+
 [HTML Attributes](#html-attributes)
+
 [HTML Headings](#html-headings-1)
+
 [HTML Paragraphs](#html-paragraphs-1)
+
 [HTML Styles](#html-styles)
+
 [HTML Formatting](#html-text-formatting)
+
 [HTML Quotations](#html-quotation-and-citation-elements)
+
 [HTML Comments](#html-comments)
+
 [HTML Colors](#html-colors)
+
 [HTML CSS](#html-styles---css)
+
 [HTML Links](#html-links)
+
 [HTML Images](#html-images-1)
+
 [HTML Favicon](#html-favicon)
+
 [HTML Page Title](#html-page-title)
+
 [HTML Tables](#html-tables)
+
 [HTML Lists](#html-lists)
+
 [HTML Block & Inline](#html-block-and-inline-elements)
+
 [HTML Div](#html-div-element)
+
 [HTML Classes](#html-class-attribute)
+
 [HTML Id](#html-id-attribute)
+
 [HTML Iframes](#html-iframes)
+
 [HTML JavaScript](#html-javascript)
+
 [HTML File Paths](#html-file-paths)
+
 [HTML Head](#html---the-head-element)
+
 [HTML Layout](#html-layout-elements-and-techniques)
+
 [HTML Responsive](#html-responsive-web-design)
+
 [HTML Computercode](#html-computer-code-elements)
+
 [HTML Semantics](#html-semantic-elements)
+
 [HTML Style Guide](#html-style-guide)
+
 [HTML Entities](#html-entities)
+
 [HTML Symbols](#html-symbols)
+
 [HTML Emojis](#using-emojis-in-html)
+
 [HTML Charsets](#html-encoding-character-sets)
+
 [HTML URL Encode](#html-uniform-resource-locators)
+
 [HTML vs. XHTML](#html-versus-xhtml)
 
 **HTML Forms**
+
 [HTML Forms]()
+
 [HTML Form Attributes]()
+
 [HTML Form Elements]()
+
 [HTML Input Types]()
+
 [HTML Input Attributes]()
+
 [Input Form Attributes]()
 
 **HTML Graphics**
+
 [HTML Canvas]()
+
 [HTML SVG]()
 
 **HTML Media**
+
 [HTML Media]()
+
 [HTML Video]()
+
 [HTML Audio]()
+
 [HTML Plug-ins]()
+
 [HTML YouTube]()
 
 **HTML APIs**
+
 [HTML Geolocation]()
+
 [HTML Drag/Drop]()
+
 [HTML Web Storage]()
+
 [HTML Web Workers]()
+
 [HTML SSE]()
 
 **HTML Examples**
+
 [HTML Examples]()
+
 [HTML Editor]()
+
 [HTML Quiz]()
+
 [HTML Exercises]()
+
 [HTML Website]()
+
 [HTML Interview Prep]()
+
 [HTML Bootcamp]()
+
 [HTML Certificate]()
+
 [HTML Summary]()
+
 [HTML Accessibility]()
 
+
 **HTML References**
+
 [HTML Tag List]()
+
 [HTML Attributes]()
+
 [HTML Global Attributes]()
+
 [HTML Browser Support]()
+
 [HTML Events]()
+
 [HTML Colors]()
+
 [HTML Canvas]()
+
 [HTML Audio/Video]()
+
 [HTML Doctypes]()
+
 [HTML Character Sets]()
+
 [HTML URL Encode]()
+
 [HTML Lang Codes]()
+
 [HTTP Messages]()
+
 [HTTP Methods]()
+
 [PX to EM Converter]()
+
 [Keyboard Shortcuts]()
 
 </details>
