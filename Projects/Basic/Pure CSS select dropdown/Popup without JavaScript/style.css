@@ -1,0 +1,66 @@
+:root {
+    --background: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+    --background-select: linear-gradient(to left, #34495e 3rem, #2c3e50 3rem);
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: var(--background);
+    color: white;
+  }
+  /* Reset <select> defaults */
+  select {
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background: none;
+    color: inherit;
+    box-shadow: none;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .select {
+    position: relative;
+    display: flex;
+    width: min(20rem, 90vw);
+    background: var(--background-select);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    // Select style
+    select {
+      flex: 1;
+      padding: 1em;
+      cursor: pointer;
+    }
+    // Arrow style
+    &::after {
+      content: "\25BC";
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      transition: 0.25s all ease;
+      pointer-events: none; // IMPORTANT to click on arrow
+    }
+    // Arrow hover
+    &:hover::after {
+      color: #f39c12;
+      animation: bounce 0.5s infinite;
+    }
+  }
+  @keyframes bounce {
+    25% {
+      transform: translatey(5px);
+    }
+    75% {
+      transform: translatey(-5px);
+    }
+  }
+  
