@@ -12,14 +12,23 @@ The more projects you finish, the more confidence you build.
 ## HTML and CSS projects: Table of contents
 
  [Beginner project: CSS radio buttons](#beginner-project-css-radio-buttons)
+ 
  [Beginner project: CSS toggle buttons](#beginner-project-css-toggle-buttons)
+ 
  [Beginner project: Hamburger menu](#beginner-project-hamburger-menu)
+ 
  [Beginner project: Pure CSS sidebar toggle menu](#beginner-project-pure-css-sidebar-toggle-menu)
+ 
  [Beginner project: Animated CSS menu](#beginner-project-animated-css-menu)
+ 
  [Beginner project: Custom checkboxes](#beginner-project-custom-checkboxes)
+ 
  [Beginner project: Pure CSS select dropdown](#beginner-project-pure-css-select-dropdown)
+ 
  [Beginner project: Modal/Popup without JavaScript](#beginner-project-modalpopup-without-javascript)
+ 
  [Beginner project: Animated gradient ghost button](#beginner-project-animated-gradient-ghost-button)
+ 
  [Beginner project: CSS image slider](#beginner-project-css-image-slider)
 
 
