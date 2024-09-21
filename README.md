@@ -1,4 +1,7 @@
-HTML+CSS Tutorial
+<p align="center">🙏 kindly follow and give a star 🙏<br> you can also fork this to contribute</p>
+
+
+HTML + CSS Tutorial
 =================
 
 
@@ -34,6 +37,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
 <summary>HTML</summary>
 
 **HTML Tutorial**
+<<<<<<< HEAD
 
 [HTML Introduction](#html-introduction)
 
@@ -124,6 +128,54 @@ Because this stuff is important.  Whether you're a business person formatting yo
 [HTML Input Attributes]()
 
 [Input Form Attributes]()
+=======
+[HTML Introduction](#html-introduction-️)
+[HTML Editors](#html-editors-)
+[HTML Basic](#html-basic-examples-)
+[HTML Elements](#html-elements-)
+[HTML Attributes](#html-attributes-)
+[HTML Headings](#html-headings-️)
+[HTML Paragraphs](#html-paragraphs-)
+[HTML Styles](#html-styles-)
+[HTML Formatting](#html-text-formatting-)
+[HTML Quotations](#html-quotation-and-citation-elements-)
+[HTML Comments](#html-comments-)
+[HTML Colors](#html-colors-)
+[HTML CSS](#html-styles---css-️)
+[HTML Links](#html-links-)
+[HTML Images](#html-images-️)
+[HTML Favicon](#html-favicon-)
+[HTML Page Title](#html-page-title-)
+[HTML Tables](#html-tables-)
+[HTML Lists](#html-lists-)
+[HTML Block & Inline](#html-block-and-inline-elements-)
+[HTML Div](#html-div-element-)
+[HTML Classes](#html-class-attribute-)
+[HTML Id](#html-id-attribute-)
+[HTML Iframes](#html-iframes-)
+[HTML JavaScript](#html-javascript-)
+[HTML File Paths](#html-file-paths-)
+[HTML Head](#html---the-head-element-)
+[HTML Layout](#html-layout-elements-and-techniques-)
+[HTML Responsive](#html-responsive-web-design-)
+[HTML Computercode](#html-computer-code-elements-)
+[HTML Semantics](#html-semantic-elements-)
+[HTML Style Guide](#html-style-guide-)
+[HTML Entities](#html-entities-)
+[HTML Symbols](#html-symbols-)
+[HTML Emojis](#using-emojis-in-html-)
+[HTML Charsets](#html-encoding-character-sets-)
+[HTML URL Encode](#html-uniform-resource-locators-)
+[HTML vs. XHTML](#html-versus-xhtml-️)
+
+**HTML Forms**
+[HTML Forms](#html-forms-️)
+[HTML Form Attributes](#html-form-attributes-️)
+[HTML Form Elements](#html-form-elements-️)
+[HTML Input Types](#html-input-types-️)
+[HTML Input Attributes](#html-input-attributes-️)
+[Input Form Attributes](#html-input-form-attributes-️)
+>>>>>>> 3721b13 (Resolved merge conflicts)
 
 **HTML Graphics**
 
@@ -155,6 +207,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
 
 [HTML SSE]()
 
+<<<<<<< HEAD
 **HTML Examples**
 
 [HTML Examples]()
@@ -176,9 +229,12 @@ Because this stuff is important.  Whether you're a business person formatting yo
 [HTML Summary]()
 
 [HTML Accessibility]()
+=======
+>>>>>>> 3721b13 (Resolved merge conflicts)
 
 
 **HTML References**
+<<<<<<< HEAD
 
 [HTML Tag List]()
 
@@ -211,6 +267,24 @@ Because this stuff is important.  Whether you're a business person formatting yo
 [PX to EM Converter]()
 
 [Keyboard Shortcuts]()
+=======
+[HTML Tag List](#html-references-️)
+[HTML Attributes](#html-references-️)
+[HTML Global Attributes](#html-references-️)
+[HTML Browser Support](#html-references-️)
+[HTML Events](#html-references-️)
+[HTML Colors](#html-references-️)
+[HTML Canvas](#html-references-️)
+[HTML Audio/Video](#html-references-️)
+[HTML Doctypes](#html-references-️)
+[HTML Character Sets](#html-references-️)
+[HTML URL Encode](#html-references-️)
+[HTML Lang Codes](#html-references-️)
+[HTTP Messages](#html-references-️)
+[HTTP Methods](#html-references-️)
+[PX to EM Converter](#html-references-️)
+[Keyboard Shortcuts](#html-references-️)
+>>>>>>> 3721b13 (Resolved merge conflicts)
 
 </details>
 
@@ -221,7 +295,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
   
 </details>
 
-- [Final Project!](https://github.com/The-Young-Programer/HTML-CSS-Tutorial/Projects)
+- [Final Project!](https://github.com/The-Young-Programer/HTML-CSS/tree/main/Projects)
 - And now, the end is near
 
 ## HTML Time. Let's Go.
@@ -7084,9 +7158,1249 @@ In XHTML, attribute minimization is forbidden:
 ```
 
 ---
+
+<h1 align="center">HTML FORM TUTORIAL </h1>
+
 ---
-# **HTML Forms Tutorial** [⬆️](#table-of-contents)
+
+### **HTML Forms** [⬆️](#table-of-contents)
+
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+#### Example
+
+**First name:**
+
+**Last name:**
+
+#### The `<form>` Element
+
+The HTML `<form>` element is used to create an HTML form for user input:
+
+```html
+<form>
+  <!-- form elements -->
+</form>
+```
+
+The `<form>` element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+
+All the different form elements are covered in this chapter: **HTML Form Elements**.
+
+#### The `<input>` Element
+
+The HTML `<input>` element is the most used form element.
+
+An `<input>` element can be displayed in many ways, depending on the `type` attribute.
+
+Here are some examples:
+
+| Type                  | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `<input type="text">`  | Displays a single-line text input field            |
+| `<input type="radio">` | Displays a radio button (for selecting one choice) |
+| `<input type="checkbox">`| Displays a checkbox (for selecting multiple choices) |
+| `<input type="submit">`| Displays a submit button (for submitting the form) |
+| `<input type="button">`| Displays a clickable button                        |
+
+All the different input types are covered in this chapter: **HTML Input Types**.
+
+#### Text Fields
+
+The `<input type="text">` defines a single-line input field for text input.
+
+##### Example
+
+A form with input fields for text:
+
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn5.jpg" width="auto" height="auto">
+
+*Note:* The form itself is not visible. Also note that the default width of an input field is 20 characters.
+
+#### The `<label>` Element
+
+Notice the use of the `<label>` element in the example above.
+
+The `<label>` tag defines a label for many form elements.
+
+The `<label>` element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+
+The `<label>` element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the `<label>` element, it toggles the radio button/checkbox.
+
+The `for` attribute of the `<label>` tag should be equal to the `id` attribute of the `<input>` element to bind them together.
+
+#### Radio Buttons
+
+The `<input type="radio">` defines a radio button.
+
+Radio buttons let a user select ONE of a limited number of choices.
+
+##### Example
+
+A form with radio buttons:
+
+```html
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn6.jpg" width="auto" height="auto">
+
+#### Checkboxes
+
+The `<input type="checkbox">` defines a checkbox.
+
+Checkboxes let a user select ZERO or MORE options of a limited number of choices.
+
+##### Example
+
+A form with checkboxes:
+
+```html
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn7.jpg">
+
+#### The Submit Button
+
+The `<input type="submit">` defines a button for submitting the form data to a form-handler.
+
+The form-handler is typically a file on the server with a script for processing input data.
+
+The form-handler is specified in the form's `action` attribute.
+
+##### Example
+
+A form with a submit button:
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn8.jpg">
+
+#### The Name Attribute for `<input>`
+
+Notice that each input field must have a `name` attribute to be submitted.
+
+If the `name` attribute is omitted, the value of the input field will not be sent at all.
+
+##### Example
+
+This example will not submit the value of the "First name" input field:
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="John"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+
 ---
+
+
+
+### HTML Form Attributes [⬆️](#table-of-contents)
+
+This chapter describes the different attributes for the HTML `<form>` element.
+
+#### The Action Attribute
+
+The action attribute defines the action to be performed when the form is submitted.
+
+Usually, the form data is sent to a file on the server when the user clicks on the submit button.
+
+In the example below, the form data is sent to a file called "action_page.php". This file contains a server-side script that handles the form data:
+
+##### Example
+
+On submit, send form data to "action_page.php":
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+**Tip**: If the action attribute is omitted, the action is set to the current page.
+
+#### The Target Attribute
+
+The target attribute specifies where to display the response that is received after submitting the form.
+
+The target attribute can have one of the following values:
+
+| Value   | Description |
+|---------|-------------|
+| _blank  | The response is displayed in a new window or tab |
+| _self   | The response is displayed in the current window |
+| _parent | The response is displayed in the parent frame |
+| _top    | The response is displayed in the full body of the window |
+| framename | The response is displayed in a named iframe |
+
+The default value is _self which means that the response will open in the current window.
+
+##### Example
+
+Here, the submitted result will open in a new browser tab:
+
+```html
+<form action="/action_page.php" target="_blank">
+```
+
+#### The Method Attribute
+
+The method attribute specifies the HTTP method to be used when submitting the form data.
+
+The form-data can be sent as URL variables (with `method="get"`) or as HTTP post transaction (with `method="post"`).
+
+The default HTTP method when submitting form data is GET. 
+
+##### Example
+
+This example uses the GET method when submitting the form data:
+
+```html
+<form action="/action_page.php" method="get">
+```
+
+##### Example
+
+This example uses the POST method when submitting the form data:
+
+```html
+<form action="/action_page.php" method="post">
+```
+
+##### Notes on GET:
+
+- Appends the form data to the URL, in name/value pairs
+- **NEVER** use GET to send sensitive data! (the submitted form data is visible in the URL!)
+- The length of a URL is limited (2048 characters)
+- Useful for form submissions where a user wants to bookmark the result
+- GET is good for non-secure data, like query strings in Google
+
+##### Notes on POST:
+
+- Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+- POST has no size limitations, and can be used to send large amounts of data.
+- Form submissions with POST cannot be bookmarked
+
+**Tip**: Always use POST if the form data contains sensitive or personal information!
+
+#### The Autocomplete Attribute
+
+The autocomplete attribute specifies whether a form should have autocomplete on or off.
+
+When autocomplete is on, the browser automatically complete values based on values that the user has entered before.
+
+##### Example
+
+A form with autocomplete on:
+
+```html
+<form action="/action_page.php" autocomplete="on">
+```
+
+#### The Novalidate Attribute
+
+The novalidate attribute is a boolean attribute.
+
+When present, it specifies that the form-data (input) should not be validated when submitted.
+
+##### Example
+
+A form with a novalidate attribute:
+
+```html
+<form action="/action_page.php" novalidate> 
+```
+
+---
+
+
+### HTML Form Elements [⬆️](#table-of-contents)
+
+This chapter describes all the different HTML form elements.
+
+#### The HTML `<form>` Elements
+
+The HTML `<form>` element can contain one or more of the following form elements:
+
+- `<input>`
+- `<label>`
+- `<select>`
+- `<textarea>`
+- `<button>`
+- `<fieldset>`
+- `<legend>`
+- `<datalist>`
+- `<output>`
+- `<option>`
+- `<optgroup>`
+
+#### The `<input>` Element
+
+One of the most used form elements is the `<input>` element.
+
+The `<input>` element can be displayed in several ways, depending on the `type` attribute.
+
+**Example**:
+```html
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+```
+
+All the different values of the `type` attribute are covered in the next chapter: HTML Input Types.
+
+#### The `<label>` Element
+
+The `<label>` element defines a label for several form elements.
+
+The `<label>` element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+
+The `<label>` element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) – because when the user clicks the text within the `<label>` element, it toggles the radio button/checkbox.
+
+The `for` attribute of the `<label>` tag should be equal to the `id` attribute of the `<input>` element to bind them together.
+
+#### The `<select>` Element
+
+The `<select>` element defines a drop-down list:
+
+**Example**:
+```html
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+```
+
+The `<option>` element defines an option that can be selected. By default, the first item in the drop-down list is selected. To define a pre-selected option, add the `selected` attribute to the option:
+
+**Example**:
+```html
+<option value="fiat" selected>Fiat</option>
+```
+
+#### Visible Values:
+
+Use the `size` attribute to specify the number of visible values:
+
+**Example**:
+```html
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars" size="3">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+```
+
+#### Allow Multiple Selections:
+
+Use the `multiple` attribute to allow the user to select more than one value:
+
+**Example**:
+```html
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars" size="4" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+```
+
+#### The `<textarea>` Element
+
+The `<textarea>` element defines a multi-line input field (a text area):
+
+**Example**:
+```html
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+```
+
+The `rows` attribute specifies the visible number of lines in a text area, and the `cols` attribute specifies the visible width of a text area.
+
+You can also define the size of the text area using CSS:
+
+**Example**:
+```html
+<textarea name="message" style="width:200px; height:600px;">
+The cat was playing in the garden.
+</textarea>
+```
+
+#### The `<button>` Element
+
+The `<button>` element defines a clickable button:
+
+**Example**:
+```html
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+```
+
+Always specify the `type` attribute for the button element. Different browsers may use different default types for the button element.
+
+#### The `<fieldset>` and `<legend>` Elements
+
+The `<fieldset>` element is used to group related data in a form. The `<legend>` element defines a caption for the `<fieldset>` element.
+
+**Example**:
+```html
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+```
+
+#### The `<datalist>` Element
+
+The `<datalist>` element specifies a list of pre-defined options for an `<input>` element. Users will see a drop-down list of the pre-defined options as they input data.
+
+The `list` attribute of the `<input>` element must refer to the `id` attribute of the `<datalist>` element.
+
+**Example**:
+```html
+<form action="/action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+</form>
+```
+
+#### The `<output>` Element
+
+The `<output>` element represents the result of a calculation (like one performed by a script).
+
+**Example**:
+Perform a calculation and show the result in an `<output>` element:
+```html
+<form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+```
+---
+
+### HTML Input Types [⬆️](#table-of-contents)
+
+This chapter describes the different types for the HTML `<input>` element.
+
+#### HTML Input Types
+
+Here are the different input types you can use in HTML:
+
+```
+    <input type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text">
+    <input type="time">
+    <input type="url">
+    <input type="week">
+```
+
+Tip: The default value of the type attribute is `"text"`.
+
+#### Input Type Text
+
+`<input type="text">` defines a single-line text input field:
+
+**Example**
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn5.jpg">
+
+#### Input Type Password
+
+`<input type="password">` defines a password field:
+
+**Example**
+```html
+<form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn9.jpg">
+
+The characters in a password field are masked (shown as asterisks or circles).
+
+#### Input Type Submit
+
+`<input type="submit">` defines a button for submitting form data to a form-handler.
+
+The form-handler is typically a server page with a script for processing input data.
+
+The form-handler is specified in the form's action attribute:
+
+**Example**
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn8.jpg">
+
+If you omit the submit button's `value` attribute, the button will get a default text:
+
+**Example**
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit">
+</form>
+```
+
+#### Input Type Reset
+
+`<input type="reset">` defines a reset button that will reset all form values to their default values:
+
+**Example**
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn10.jpg">
+
+#### Input Type Radio
+
+`<input type="radio">` defines a radio button.
+
+Radio buttons let a user select **ONLY ONE** of a limited number of choices:
+
+**Example**
+```html
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn11.jpg"> 
+
+#### Input Type Checkbox
+
+`<input type="checkbox">` defines a checkbox.
+
+Checkboxes let a user select **ZERO or MORE** options of a limited number of choices.
+
+**Example**
+```html
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+<img src="./Images/pro/nn7.jpg">  
+
+#### Input Type Button
+
+`<input type="button">` defines a button:
+
+**Example**
+```html
+<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+```
+
+This is how the HTML code above will be displayed in a browser:
+
+#### Input Type Color
+
+The `<input type="color">` is used for input fields that should contain a color.
+
+Depending on browser support, a color picker can show up in the input field.
+
+**Example**
+```html
+<form>
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor">
+</form>
+```
+
+#### Input Type Date
+
+The `<input type="date">` is used for input fields that should contain a date.
+
+Depending on browser support, a date picker can show up in the input field.
+
+**Example**
+```html
+<form>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
+```
+
+You can also use the `min` and `max` attributes to add restrictions to dates:
+
+**Example**
+```html
+<form>
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02">
+</form>
+```
+
+#### Input Type Datetime-local
+
+The `<input type="datetime-local">` specifies a date and time input field, with no time zone.
+
+Depending on browser support, a date picker can show up in the input field.
+
+**Example**
+```html
+<form>
+  <label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+</form>
+```
+
+---
+
+
+### HTML Input Attributes [⬆️](#table-of-contents)
+
+This chapter describes the different attributes for the HTML `<input>` element.
+
+#### The value Attribute
+
+The input value attribute specifies an initial value for an input field:
+
+**Example**
+
+Input fields with initial (default) values:
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+```
+
+#### The readonly Attribute
+
+The input readonly attribute specifies that an input field is read-only.
+
+A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+
+The value of a read-only input field will be sent when submitting the form!
+
+**Example**
+
+A read-only input field:
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" readonly><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+```
+
+#### The disabled Attribute
+
+The input disabled attribute specifies that an input field should be disabled.
+
+A disabled input field is unusable and un-clickable.
+
+The value of a disabled input field will not be sent when submitting the form!
+
+**Example**
+
+A disabled input field:
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" disabled><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+```
+
+#### The size Attribute
+
+The input size attribute specifies the visible width, in characters, of an input field.
+
+The default value for size is 20.
+
+**Note:** The size attribute works with the following input types: text, search, tel, url, email, and password.
+
+**Example**
+
+Set a width for an input field:
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" size="4">
+</form>
+```
+
+#### The maxlength Attribute
+
+The input maxlength attribute specifies the maximum number of characters allowed in an input field.
+
+**Note:** When a maxlength is set, the input field will not accept more than the specified number of characters. However, this attribute does not provide any feedback. So, if you want to alert the user, you must write JavaScript code.
+
+**Example**
+
+Set a maximum length for an input field:
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" maxlength="4" size="4">
+</form>
+```
+
+#### The min and max Attributes
+
+The input min and max attributes specify the minimum and maximum values for an input field.
+
+The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+
+**Tip:** Use the max and min attributes together to create a range of legal values.
+
+**Example**
+
+Set a max date, a min date, and a range of legal values:
+```html
+<form>
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+</form>
+```
+
+#### The multiple Attribute
+
+The input multiple attribute specifies that the user is allowed to enter more than one value in an input field.
+
+The multiple attribute works with the following input types: email, and file.
+
+**Example**
+
+A file upload field that accepts multiple values:
+```html
+<form>
+  <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple>
+</form>
+```
+
+#### The pattern Attribute
+
+The input pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted.
+
+The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.
+
+**Tip:** Use the global title attribute to describe the pattern to help the user.
+
+**Tip:** Learn more about regular expressions in our JavaScript tutorial.
+
+**Example**
+
+An input field that can contain only three letters (no numbers or special characters):
+```html
+<form>
+  <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code"
+  pattern="[A-Za-z]{3}" title="Three letter country code">
+</form>
+```
+
+#### The placeholder Attribute
+
+The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).
+
+The short hint is displayed in the input field before the user enters a value.
+
+The placeholder attribute works with the following input types: text, search, url, number, tel, email, and password.
+
+**Example**
+
+An input field with a placeholder text:
+```html
+<form>
+  <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone"
+  placeholder="123-45-678"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+</form>
+```
+
+#### The required Attribute
+
+The input required attribute specifies that an input field must be filled out before submitting the form.
+
+The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+
+**Example**
+
+A required input field:
+```html
+<form>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+</form>
+```
+
+#### The step Attribute
+
+The input step attribute specifies the legal number intervals for an input field.
+
+**Example:** if step="3", legal numbers could be -3, 0, 3, 6, etc.
+
+**Tip:** This attribute can be used together with the max and min attributes to create a range of legal values.
+
+The step attribute works with the following input types: number, range, date, datetime-local, month, time and week.
+
+**Example**
+
+An input field with a specified legal number intervals:
+```html
+<form>
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="3">
+</form>
+```
+
+**Note:** Input restrictions are not foolproof, and JavaScript provides many ways to add illegal input. To safely restrict input, it must also be checked by the receiver (the server)!
+
+#### The autofocus Attribute
+
+The input autofocus attribute specifies that an input field should automatically get focus when the page loads.
+
+**Example**
+
+Let the "First name" input field automatically get focus when the page loads:
+```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" autofocus><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+```
+
+#### The height and width Attributes
+
+The input height and width attributes specify the height and width of an `<input type="image">` element.
+
+**Tip:** Always specify both the height and width attributes for images. If height and width are set, the space required for the image is reserved when the page is loaded. Without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+
+**Example**
+
+Define an image as the submit button, with height and width attributes:
+```html
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+</form>
+```
+
+#### The list Attribute
+
+The input list attribute refers to a `<datalist>` element that contains pre-defined options for an `<input>` element.
+
+
+
+**Example**
+
+An `<input>` element with pre-defined values in a `<datalist>`:
+```html
+<form>
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+</form>
+```
+
+#### The autocomplete Attribute
+
+The input autocomplete attribute specifies whether a form or an input field should have autocomplete on or off.
+
+Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
+
+The autocomplete attribute works with `<form>` and the following `<input>` types: text, search, url, tel, email, password, datepickers, range, and color.
+
+**Example**
+
+An HTML form with autocomplete on, and off for one input field:
+```html
+<form action="/action_page.php" autocomplete="on">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" autocomplete="off"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+```
+---
+
+### HTML Input Form Attributes [⬆️](#table-of-contents)
+
+This chapter describes the different form attributes for the HTML `<input>` element.
+
+#### The form Attribute
+
+The input form attribute specifies the form the `<input>` element belongs to.
+
+The value of this attribute must be equal to the `id` attribute of the `<form>` element it belongs to.
+
+##### Example
+
+An input field located outside of the HTML form (but still a part of the form):
+
+```html
+<form action="/action_page.php" id="form1">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" form="form1">
+```
+
+#### The formaction Attribute
+
+The input formaction attribute specifies the URL of the file that will process the input when the form is submitted.
+
+**Note:** This attribute overrides the action attribute of the `<form>` element.
+
+The formaction attribute works with the following input types: `submit` and `image`.
+
+##### Example
+
+An HTML form with two submit buttons, with different actions:
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+</form>
+```
+
+#### The formenctype Attribute
+
+The input formenctype attribute specifies how the form-data should be encoded when submitted (only for forms with `method="post"`).
+
+**Note:** This attribute overrides the enctype attribute of the `<form>` element.
+
+The formenctype attribute works with the following input types: `submit` and `image`.
+
+#### Example
+
+A form with two submit buttons. The first sends the form-data with default encoding, the second sends the form-data encoded as "multipart/form-data":
+
+```html
+<form action="/action_page_binary.asp" method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+</form>
+```
+
+#### The formmethod Attribute
+
+The input formmethod attribute defines the HTTP method for sending form-data to the action URL.
+
+**Note:** This attribute overrides the method attribute of the `<form>` element.
+
+The formmethod attribute works with the following input types: `submit` and `image`.
+
+The form-data can be sent as URL variables (`method="get"`) or as an HTTP post transaction (`method="post"`).
+
+#### Notes on the "get" method:
+
+- This method appends the form-data to the URL in name/value pairs.
+- This method is useful for form submissions where a user wants to bookmark the result.
+- There is a limit to how much data you can place in a URL (varies between browsers), therefore, you cannot be sure that all of the form-data will be correctly transferred.
+- Never use the "get" method to pass sensitive information! (password or other sensitive information will be visible in the browser's address bar)
+
+#### Notes on the "post" method:
+
+- This method sends the form-data as an HTTP post transaction.
+- Form submissions with the "post" method cannot be bookmarked.
+- The "post" method is more robust and secure than "get", and "post" does not have size limitations.
+
+##### Example
+
+A form with two submit buttons. The first sends the form-data with `method="get"`. The second sends the form-data with `method="post"`:
+
+```html
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit using GET">
+  <input type="submit" formmethod="post" value="Submit using POST">
+</form>
+```
+
+#### The formtarget Attribute
+
+The input formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.
+
+**Note:** This attribute overrides the target attribute of the `<form>` element.
+
+The formtarget attribute works with the following input types: `submit` and `image`.
+
+##### Example
+
+A form with two submit buttons, with different target windows:
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+</form>
+```
+
+#### The formnovalidate Attribute
+
+The input formnovalidate attribute specifies that an `<input>` element should not be validated when submitted.
+
+**Note:** This attribute overrides the novalidate attribute of the `<form>` element.
+
+The formnovalidate attribute works with the following input types: `submit`.
+
+##### Example
+
+A form with two submit buttons (with and without validation):
+
+```html
+<form action="/action_page.php">
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+</form>
+```
+
+#### The novalidate Attribute
+
+The novalidate attribute is a `<form>` attribute.
+
+When present, novalidate specifies that all of the form-data should not be validated when submitted.
+
+##### Example
+
+Specify that no form-data should be validated on submit:
+
+```html
+<form action="/action_page.php" novalidate>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+---
+
+
+**HTML Graphics** COMING SOON
+
+
+---
+
+
+
+
+### HTML References [⬆️](#table-of-contents)
+
+1. **HTML Tag List**: [W3Schools HTML Tags](https://www.w3schools.com/tags/default.asp)
+2. **HTML Attributes**: [MDN Web Docs - HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+3. **HTML Global Attributes**: [MDN Web Docs - Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+4. **HTML Browser Support**: [Can I Use](https://caniuse.com/) - Check compatibility of HTML elements and attributes across browsers.
+5. **HTML Events**: [MDN Web Docs - HTML DOM Events](https://developer.mozilla.org/en-US/docs/Web/Events)
+6. **HTML Colors**: [W3Schools HTML Colors](https://www.w3schools.com/colors/default.asp)
+7. **HTML Canvas**: [MDN Web Docs - Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+8. **HTML Audio/Video**: [MDN Web Docs - Using audio and video in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+9. **HTML Doctypes**: [W3Schools - HTML Doctype](https://www.w3schools.com/tags/tag_doctype.asp)
+10. **HTML Character Sets**: [MDN Web Docs - Character sets](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#character_set)
+11. **HTML URL Encode**: [URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp)
+12. **HTML Lang Codes**: [IANA Language Subtag Registry](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+13. **HTTP Messages**: [MDN Web Docs - HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+14. **HTTP Methods**: [MDN Web Docs - HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+15. **PX to EM Converter**: [PX to EM Conversion Tool](https://www.pxtoem.com/)
+16. **Keyboard Shortcuts**: [MDN Web Docs - Keyboard Shortcuts](https://developer.mozilla.org/en-US/docs/MDN/Contributing/Keyboard_shortcuts)
+
+If you need more detailed information on any specific topic, let me know!
+
+---
+
+
+<p align="center">🙏 kindly follow and give a star 🙏<br> you can also fork this to contribute</p>
+
+
+
+
 
 
 

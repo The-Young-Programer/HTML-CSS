@@ -1,3 +1,6 @@
+<p align="center">🙏 kindly follow and give a star 🙏<br> you can also fork this to contribute</p>
+
+
 
 # HTML And CSS Projects For Beginners (With Source Code)
 
@@ -165,6 +168,10 @@ This image slider with navigation buttons and dots is a fantastic HTML and CSS p
 
 
 [☝️ back to top ☝️](#html-and-css-projects-table-of-contents)
+
+---
+
+<p align="center">🙏 kindly follow and give a star 🙏<br> you can also fork this to contribute</p>
 
 
 
