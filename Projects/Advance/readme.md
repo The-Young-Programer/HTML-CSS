@@ -15,7 +15,9 @@ The more projects you finish, the more confidence you build.
 ## HTML and CSS projects: Table of contents
 
  [project: Login/Sign-Up](#project-loginsign-up)
+ 
  [project: Responsive Contact Us Form](#project-responsive-contact-us-form)
+ 
  [project: Simple Landing Page](#project-simple-landing-page)
 
 
