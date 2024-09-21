@@ -36,146 +36,97 @@ Because this stuff is important.  Whether you're a business person formatting yo
 <details>
 <summary>HTML</summary>
 
-**HTML Tutorial**
-<<<<<<< HEAD
-
-[HTML Introduction](#html-introduction)
-
-[HTML Editors](#html-editors)
-
-[HTML Basic](#html-basic-examples)
-
-[HTML Elements](#html-elements)
-
-[HTML Attributes](#html-attributes)
-
-[HTML Headings](#html-headings-1)
-
-[HTML Paragraphs](#html-paragraphs-1)
-
-[HTML Styles](#html-styles)
-
-[HTML Formatting](#html-text-formatting)
-
-[HTML Quotations](#html-quotation-and-citation-elements)
-
-[HTML Comments](#html-comments)
-
-[HTML Colors](#html-colors)
-
-[HTML CSS](#html-styles---css)
-
-[HTML Links](#html-links)
-
-[HTML Images](#html-images-1)
-
-[HTML Favicon](#html-favicon)
-
-[HTML Page Title](#html-page-title)
-
-[HTML Tables](#html-tables)
-
-[HTML Lists](#html-lists)
-
-[HTML Block & Inline](#html-block-and-inline-elements)
-
-[HTML Div](#html-div-element)
-
-[HTML Classes](#html-class-attribute)
-
-[HTML Id](#html-id-attribute)
-
-[HTML Iframes](#html-iframes)
-
-[HTML JavaScript](#html-javascript)
-
-[HTML File Paths](#html-file-paths)
-
-[HTML Head](#html---the-head-element)
-
-[HTML Layout](#html-layout-elements-and-techniques)
-
-[HTML Responsive](#html-responsive-web-design)
-
-[HTML Computercode](#html-computer-code-elements)
-
-[HTML Semantics](#html-semantic-elements)
-
-[HTML Style Guide](#html-style-guide)
-
-[HTML Entities](#html-entities)
-
-[HTML Symbols](#html-symbols)
-
-[HTML Emojis](#using-emojis-in-html)
-
-[HTML Charsets](#html-encoding-character-sets)
-
-[HTML URL Encode](#html-uniform-resource-locators)
-
-[HTML vs. XHTML](#html-versus-xhtml)
-
-**HTML Forms**
-
-[HTML Forms]()
-
-[HTML Form Attributes]()
-
-[HTML Form Elements]()
-
-[HTML Input Types]()
-
-[HTML Input Attributes]()
-
-[Input Form Attributes]()
-=======
 [HTML Introduction](#html-introduction-️)
+
+
 [HTML Editors](#html-editors-)
+
 [HTML Basic](#html-basic-examples-)
+
 [HTML Elements](#html-elements-)
+
 [HTML Attributes](#html-attributes-)
+
 [HTML Headings](#html-headings-️)
+
 [HTML Paragraphs](#html-paragraphs-)
+
 [HTML Styles](#html-styles-)
+
 [HTML Formatting](#html-text-formatting-)
+
 [HTML Quotations](#html-quotation-and-citation-elements-)
+
 [HTML Comments](#html-comments-)
+
 [HTML Colors](#html-colors-)
+
 [HTML CSS](#html-styles---css-️)
+
 [HTML Links](#html-links-)
+
 [HTML Images](#html-images-️)
+
 [HTML Favicon](#html-favicon-)
+
 [HTML Page Title](#html-page-title-)
+
 [HTML Tables](#html-tables-)
+
 [HTML Lists](#html-lists-)
+
 [HTML Block & Inline](#html-block-and-inline-elements-)
+
 [HTML Div](#html-div-element-)
+
 [HTML Classes](#html-class-attribute-)
+
 [HTML Id](#html-id-attribute-)
+
 [HTML Iframes](#html-iframes-)
+
 [HTML JavaScript](#html-javascript-)
+
 [HTML File Paths](#html-file-paths-)
+
 [HTML Head](#html---the-head-element-)
+
 [HTML Layout](#html-layout-elements-and-techniques-)
+
 [HTML Responsive](#html-responsive-web-design-)
+
 [HTML Computercode](#html-computer-code-elements-)
+
 [HTML Semantics](#html-semantic-elements-)
+
 [HTML Style Guide](#html-style-guide-)
+
 [HTML Entities](#html-entities-)
+
 [HTML Symbols](#html-symbols-)
+
 [HTML Emojis](#using-emojis-in-html-)
+
 [HTML Charsets](#html-encoding-character-sets-)
+
 [HTML URL Encode](#html-uniform-resource-locators-)
+
 [HTML vs. XHTML](#html-versus-xhtml-️)
 
 **HTML Forms**
+
 [HTML Forms](#html-forms-️)
+
 [HTML Form Attributes](#html-form-attributes-️)
+
 [HTML Form Elements](#html-form-elements-️)
+
 [HTML Input Types](#html-input-types-️)
+
 [HTML Input Attributes](#html-input-attributes-️)
+
 [Input Form Attributes](#html-input-form-attributes-️)
->>>>>>> 3721b13 (Resolved merge conflicts)
+
 
 **HTML Graphics**
 
@@ -207,84 +158,39 @@ Because this stuff is important.  Whether you're a business person formatting yo
 
 [HTML SSE]()
 
-<<<<<<< HEAD
-**HTML Examples**
-
-[HTML Examples]()
-
-[HTML Editor]()
-
-[HTML Quiz]()
-
-[HTML Exercises]()
-
-[HTML Website]()
-
-[HTML Interview Prep]()
-
-[HTML Bootcamp]()
-
-[HTML Certificate]()
-
-[HTML Summary]()
-
-[HTML Accessibility]()
-=======
->>>>>>> 3721b13 (Resolved merge conflicts)
-
-
 **HTML References**
-<<<<<<< HEAD
 
-[HTML Tag List]()
-
-[HTML Attributes]()
-
-[HTML Global Attributes]()
-
-[HTML Browser Support]()
-
-[HTML Events]()
-
-[HTML Colors]()
-
-[HTML Canvas]()
-
-[HTML Audio/Video]()
-
-[HTML Doctypes]()
-
-[HTML Character Sets]()
-
-[HTML URL Encode]()
-
-[HTML Lang Codes]()
-
-[HTTP Messages]()
-
-[HTTP Methods]()
-
-[PX to EM Converter]()
-
-[Keyboard Shortcuts]()
-=======
 [HTML Tag List](#html-references-️)
+
 [HTML Attributes](#html-references-️)
+
 [HTML Global Attributes](#html-references-️)
+
 [HTML Browser Support](#html-references-️)
+
 [HTML Events](#html-references-️)
+
 [HTML Colors](#html-references-️)
+
 [HTML Canvas](#html-references-️)
+
 [HTML Audio/Video](#html-references-️)
+
 [HTML Doctypes](#html-references-️)
+
 [HTML Character Sets](#html-references-️)
+
 [HTML URL Encode](#html-references-️)
+
 [HTML Lang Codes](#html-references-️)
+
 [HTTP Messages](#html-references-️)
+
 [HTTP Methods](#html-references-️)
+
 [PX to EM Converter](#html-references-️)
+
 [Keyboard Shortcuts](#html-references-️)
->>>>>>> 3721b13 (Resolved merge conflicts)
 
 </details>
 
